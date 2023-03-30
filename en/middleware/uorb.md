@@ -122,6 +122,8 @@ sensor_combined                      0    6  242   636 1
 ```
 The columns are: topic name, multi-instance index, number of subscribers, publishing frequency in Hz, number of lost messages per second (for all subscribers combined), and queue size.
 
+:::note `uorb top` has been known to have issues when operating over the Mavlink Console, and may not start. The [PX4 System Console](../debug/system_console.md) is generally more reliable for using `uorb top`:::
+
 
 ## Multi-instance
 
